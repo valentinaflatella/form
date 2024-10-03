@@ -1,0 +1,119 @@
+
+body{
+    background-color: #393c44;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    display: flex;
+}
+
+.main{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    width: 600px;
+    background-color: #2b2e35;
+    padding: 35px;
+    border-radius: 10px;
+    line-height: 25px;
+    overflow: hidden;
+    justify-content: center;
+    margin-top: 5%;
+    box-shadow: 2px 0px 88px 31px rgba(0,0,0,0.63);
+    box-shadow: 2px 0px 88px 31px rgba(0,0,0,0.63);
+    box-shadow: 2px 0px 88px 31px rgba(0,0,0,0.63);
+}
+
+.formulario{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    width: 90%;
+    background-color: #2b2e35;
+    padding: 35px;
+    padding-bottom: 15%;
+    border-radius: 10px;
+    line-height: 25px;
+    overflow: hidden;
+    columns: 2;
+}
+
+h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+}
+
+hr{
+    border: #03bb7d 1px solid;
+    width: 70%;
+}
+
+input{
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #505865;
+    width: 90%;
+    border: 2px solid #39404b;
+}
+
+::placeholder{
+    color: #b3bac4;
+}
+
+.div_form{
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.main2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button-container{
+    justify-content: center;
+    text-align: center;
+    height: fit-content;
+    position: absolute;
+    width: fit-content;
+    left: 230px;
+    top: 190px;
+}
+
+button{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    background-color: #03bb7d;
+    border: none;
+    border-radius: 7px;
+    position: relative;
+    padding: 15px;
+    width: 150px;
+    
+}
